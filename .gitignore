@@ -1,0 +1,14 @@
+# 環境変数・シークレット
+.env
+.env.local
+.env.*.local
+
+# Node.js
+node_modules/
+
+# ランタイム生成ファイル
+src/shortcuts.json
+
+# OS
+.DS_Store
+Thumbs.db
