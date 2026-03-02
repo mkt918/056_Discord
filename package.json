@@ -1,0 +1,21 @@
+{
+  "name": "056-discord-antigravity",
+  "version": "1.0.0",
+  "description": "Antigravity Terminal Discord Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "author": "mkt918",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
