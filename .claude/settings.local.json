@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git remote get-url origin)",
+      "Bash(git filter-repo --version)",
+      "Bash(pip show git-filter-repo)",
+      "Bash(git filter-repo --path .env --invert-paths --force)",
+      "Bash(git remote add origin https://github.com/mkt918/056_Discord.git)"
+    ]
+  }
+}
